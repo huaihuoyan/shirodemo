@@ -1,0 +1,3 @@
+#自定义realms
+myRealm=com.huai.shiro.MyRealm
+securityManager.realms=$myRealm

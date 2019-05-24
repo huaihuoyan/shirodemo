@@ -1,0 +1,3 @@
+[main]
+myReal=com.huai.shiro.PermissRealm
+securityManager.realms=#myReal

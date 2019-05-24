@@ -1,0 +1,10 @@
+[main]
+#定义匹配器
+credentialsMatcher=org.apache.shiro.authc.credential.HashedCredentialsMatcher
+credentialsMatcher.hashAlgorithmName=md5
+credentialsMatcher.hashIterations=3
+#将凭证匹配设置realm
+myRealm=com.laiyunjing.shiro.passwordRealm
+myRealm.credentialsMatcher=$credentialsMatcher
+securityManager.realms=$myRealm
+
