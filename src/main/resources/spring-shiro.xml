@@ -13,7 +13,7 @@
 
 
     <!--配置自定义的realm-->
-    <bean id="userRealm" class="cn.wolfcode.shiro.realm.UserRealm">
+    <bean id="userRealm" class="com.huai.shiro.realm.UserRealm">
         <!--密码需要加密：加密器-->
         <property name="credentialsMatcher" ref="credentialsMatcher" />
         <property name="userDAO" ref="userDAOImpl"></property>
