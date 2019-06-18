@@ -3,6 +3,8 @@ package com.huai.shiro.dao;
 
 import com.huai.shiro.entity.User;
 
+import java.util.List;
+
 public interface IUserDAO {
     /**
      * 通过用户名查找用户对象
@@ -10,4 +12,6 @@ public interface IUserDAO {
      * @return
      */
     User getUserByUsername(String username);
+
+//    List<User> selectUser();
 }
